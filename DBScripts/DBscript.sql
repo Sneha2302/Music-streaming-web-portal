@@ -24,7 +24,7 @@ USE `MusicWire`;
 
 CREATE TABLE `Album` (
   `albumId` varchar(45) NOT NULL,
-  `albumTitle` varchar(45) DEFAULTAlbum NULL,
+  `albumTitle` varchar(45) DEFAULT NULL,
   `albumDate` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
